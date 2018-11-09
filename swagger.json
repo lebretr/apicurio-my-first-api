@@ -215,6 +215,14 @@
           }
         }
       }
+    },
+    "securitySchemes" : {
+      "oauth" : {
+        "type" : "oauth2",
+        "flows" : {
+          "clientCredentials" : { }
+        }
+      }
     }
   },
   "tags" : [ {
